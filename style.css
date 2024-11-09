@@ -1,0 +1,18 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(165, 27, 27);
+}
+h1{color:rgb(89, 0, 255);}
+a{color:bisque;
+text-decoration:none;}
+a:hover{color:blue;}
+ul>li{font-weight:bold;}
+h1+p{background-color:rgb(255, 0, 0);
+padding: 10px;
+border-radius: 5px;}
+ul li:nth-child(3) {background-color:blueviolet;}
+p:not(:first-of-type){text-decoration:underline;}
+ul li::before {content:"✅";}
+a::after{content:"✅";}
+p::first-letter {font-size:200%; 
+color:red;}
